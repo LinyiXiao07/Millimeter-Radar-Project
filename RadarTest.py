@@ -63,26 +63,6 @@ def main():
 #    lcd_string("Target Distance",LCD_LINE_1)
 #    lcd_string("xxxx mm",LCD_LINE_2)
 
-#    time.sleep(3) # 3 second delay
-
-    # Send some text
-#    lcd_string("1234567890123456",LCD_LINE_1)
-#    lcd_string("abcdefghijklmnop",LCD_LINE_2)
-
-#    time.sleep(3) # 3 second delay
-
-    # Send some text
-#    lcd_string("Basemu.com",LCD_LINE_1)
-#    lcd_string("Welcome",LCD_LINE_2)
-
-#    time.sleep(3)
-
-    # Send some text
-#    lcd_string("Welcome to",LCD_LINE_1)
-#    lcd_string("Basemu.com",LCD_LINE_2)
-
-#    time.sleep(3)
-
 def lcd_init():
   # Initialise display
   lcd_byte(0x33,LCD_CMD) # 110011 Initialise
